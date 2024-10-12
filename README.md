@@ -7,7 +7,7 @@
 We implemented a Python function to determine whether a
 number is happy.
 
-We programmed in **Google Colab**, saved the results as an ipynb file, and uploaded it to **GitHub repository**.
+We programmed in **Google Colab**, saved the results as an ipynb file, and uploaded it to <U>**GitHub repository**.</U>
 
 > ### 1.1 code
 ```
