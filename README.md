@@ -84,11 +84,10 @@ docker exec <container_name> python3 --version
 ```
 docker inspect --format="{{ .HostConfig.Binds }}" <container_name>
 ```  
-* Verifies the bind mount configuration, showing that a directory from the host system is correctly mounted inside the container.
+* Verifies the bind mount configuration, <u>showing that a directory from the host system is correctly mounted inside the container.</u>
 
 <br>
 
 > ## 2.2 Result of the commands
 >> <img src="./imagefolder/week5image.png" width="500px" height="200px" title="image_of_result">
-> + container_name is ossp-container
-> + 
+> + container_name is **ossp-container**
