@@ -53,7 +53,7 @@ Returns whether the number is happy or not.
 > ## 1.2 How to save a file from Colab to the desktop
 > An .ipynb file is a Jupyter Notebook file that contains code and rich text in an interactive format.
 >>
->> <img src="./imagefolder/week4image.png" title="Image of saving Colab">
+>> <img src="./imagefolder/week4image.png" width="400px" height="370px" title="Image of saving Colab">
 
 <br>
 
@@ -91,4 +91,5 @@ docker inspect --format="{{ .HostConfig.Binds }}" <container_name>
 > ## 2.2 Result of the commands
 >> <img src="./imagefolder/week5image.png" width="500px" height="200px" title="image_of_result">
 > + container_name is **ossp-container**
+> + <br>
 ~Warining: GitHub Markdown does not support some HTML tags.~
