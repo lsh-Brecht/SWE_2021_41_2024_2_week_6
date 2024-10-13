@@ -31,9 +31,9 @@ def isHappy(n):
       arr.append(sum)
     return happy
 ```
-The `isHappy(n)` function checks if `n` is a "happy number."  
-A happy number is a number where replacing it with the sum of squares of its digits  
-eventually leads to 1. If it loops endlessly without reaching 1, it's unhappy.
+The `isHappy(n)` function checks if `n` is a "happy number." A happy number is a number  
+where replacing it with the sum of squares of its digits eventually leads to 1. If it  
+loops endlessly without reaching 1, it's unhappy.
 
 #### how the code works
 
