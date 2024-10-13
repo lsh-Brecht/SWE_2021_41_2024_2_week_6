@@ -74,20 +74,21 @@ docker exec <container_name> cat /etc/os-release
 ```
 docker exec <container_name> git --version
 ```
-* Confirms that Git is installed and running properly inside the container.
+* Confirms that **Git** is installed and running properly inside the container.
 
 ```
 docker exec <container_name> python3 --version
 ```
-* Confirms Python3 is installed and functioning as expected.
+* Confirms **Python3** is installed and functioning as expected.
 
 ```
 docker inspect --format="{{ .HostConfig.Binds }}" <container_name>
 ```  
-* Verifies the bind mount configuration, <u>showing that a directory from the host system is correctly mounted inside the container.</u>
+* Verifies the bind mount configuration, *showing that a directory from the host system is correctly mounted inside the container.*
 
 <br>
 
 > ## 2.2 Result of the commands
 >> <img src="./imagefolder/week5image.png" width="500px" height="200px" title="image_of_result">
 > + container_name is **ossp-container**
+~Warining: GitHub Markdown does not support some HTML tags.~
