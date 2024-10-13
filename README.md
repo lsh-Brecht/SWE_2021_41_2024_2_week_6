@@ -70,7 +70,7 @@ apt-get install -y git python3
 ```
 docker exec <container_name> cat /etc/os-release
 ```
-* Confirms that the container runs the correct Linux distribution.
+* Confirms that the container runs the correct Linux distribution.  
 (Information about the Linux distribution running inside the container.)
 
 ```
