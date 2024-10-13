@@ -7,7 +7,8 @@
 We implemented a Python function to determine whether a
 number is happy.
 
-We programmed in **Google Colab**, saved the results as an ipynb file, and uploaded it to *GitHub repository*.
+We programmed in **Google Colab**, saved the results as an ipynb file,\
+and uploaded it to *GitHub repository*.
 
 > ### 1.1 code
 ```
@@ -30,9 +31,9 @@ def isHappy(n):
       arr.append(sum)
     return happy
 ```
-The `isHappy(n)` function checks if `n` is
-a "happy number." A happy number is a number where replacing it
-with the sum of squares of its digits eventually leads to 1. <u>If it loops endlessly without reaching 1, it's unhappy.</u>
+The `isHappy(n)` function checks if `n` is a "happy number."/
+A happy number is a number where replacing it with the sum of squares of its digits\
+eventually leads to 1. If it loops endlessly without reaching 1, it's unhappy.
 
 #### how the code works
 
@@ -51,14 +52,15 @@ If sum is already in arr, return False.
 Returns whether the number is happy or not.
 
 > ## 1.2 How to save a file from Colab to the desktop
-> An .ipynb file is a Jupyter Notebook file that contains code and rich text in an interactive format.
+> An .ipynb file is a Jupyter Notebook file that contains code and text in an interactive format.
 >>
 >> <img src="./imagefolder/week4image.png" width="400px" height="370px" title="Image of saving Colab">
 
 <br>
 
 ## 2. Docker_Assignments  (week4)
-We set up a **Docker container** with Ubuntu and verified the necessary functionalities(Git and Python) using the commands below.
+We set up a **Docker container** with Ubuntu and verified the necessary\
+functionalities(Git and Python) using the commands below.
 ### 2.1. Docker commands (Ubuntu)
 ```
 apt-get install -y git python3
@@ -84,12 +86,12 @@ docker exec <container_name> python3 --version
 ```
 docker inspect --format="{{ .HostConfig.Binds }}" <container_name>
 ```  
-* Verifies the bind mount configuration, *showing that a directory from the host system is correctly mounted inside the container.*
+* Verifies bind mount configuration, *showing host directory is correctly mounted the container*
 
 <br>
 
 > ## 2.2 Result of the commands
 >> <img src="./imagefolder/week5image.png" width="500px" height="200px" title="image_of_result">
 > + container_name is **ossp-container**
-> + <br>
+<br>
 ~Warining: GitHub Markdown does not support some HTML tags.~
