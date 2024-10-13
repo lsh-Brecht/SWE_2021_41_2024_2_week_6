@@ -8,7 +8,7 @@ We implemented a Python function to determine whether a
 number is happy.
 
 We programmed in **Google Colab**, saved the results as an ipynb file,\
-and uploaded it to *GitHub repository*.
+and uploaded it to *GitHub repository.
 
 > ### 1.1 code
 ```
@@ -94,4 +94,4 @@ docker inspect --format="{{ .HostConfig.Binds }}" <container_name>
 >> <img src="./imagefolder/week5image.png" width="500px" height="200px" title="image_of_result">
 > + container_name is **ossp-container**
 <br>
-~Warining: GitHub Markdown does not support some HTML tags.~
+~~Warining: GitHub Markdown does not support some HTML tags.~~
